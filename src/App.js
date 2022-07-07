@@ -1,24 +1,32 @@
+import Article from './Article';
 import logo from './logo.svg';
-import './App.css';
+import './index.css';
+
+
 
 function App() {
   return (
-    <div className="App">
+   
+  <>
+    
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          This is my First React Baselined in Git and is main stream branch
-        </a>
+      <div class="logo">
+          <img src={logo} className="App-logo" alt="logo" />
+          My First Application
+      </div>
+        <div class="menu">
+        <div class="box"> Menu Item 1 </div>
+        <div class="box"> Menu Item 1 </div>
+        <div class="box"> Menu Item 1 </div>
+        
+           </div>
+               
+      
       </header>
-    </div>
+      <body>
+        <Article />
+      </body>
+    </>
   );
 }
 
