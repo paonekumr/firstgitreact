@@ -32,12 +32,13 @@
   gap: 1rem;
   direction: row;
   background: var(--color-primary-light);
+  
 }
 .logo {
   padding: var(--metric-box-spacing);
  /* border: 1px solid var(--color-stroke);*/
   box-shadow: var(--generic-shadow);
-  font-weight: 500;
+  font-weight: 250;
   text-align: center;
   color: whitesmoke ;
   max-width: 40rem;
@@ -48,6 +49,23 @@
   gap: 1rem;
   direction: row;
   background: var(--color-primary-light);
+  height: 7vmin;
+  vertical-align: middle;
+}
+
+.menu-item {
+  /*padding: var(--metric-box-spacing);*/
+  border: 1px solid var(--color-stroke);
+  box-shadow: var(--generic-shadow);
+  font-weight: 500;font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
+  max-width: 40rem;
+  border-radius:10px;
+}
+
+.menu-item:not([class*="bg-"]) {
+  background: var(--color-off-white);
 }
 
 @media (prefers-reduced-motion: no-preference) {
