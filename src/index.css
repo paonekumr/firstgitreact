@@ -584,10 +584,10 @@ button[data-type="secondary"]:hover {
   font-weight: 700;
   line-height: 1;
   border: 5px solid;
-  padding: 2rem;
+  padding: 5rem;
 
   /* The important extrinsic width */
-  width: 320px;
+  width: 1024px;
 }
 
 .awesome[data-sizing="intrinsic"] {

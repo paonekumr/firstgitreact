@@ -1,4 +1,5 @@
 import Article from './Article';
+import CallIRC from './CallIRC';
 
 import './index.css';
 
@@ -9,8 +10,8 @@ function App() {
    
  
       
- 
-        <Article />
+ <CallIRC/>
+       /* <Article />*/
  
  
   );

@@ -1,0 +1,7 @@
+taraka,89
+pavan,77
+roja,33
+ramya,65
+shannu,88
+vohitha,99
+mukthi,100

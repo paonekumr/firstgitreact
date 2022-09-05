@@ -13,9 +13,9 @@ root.render(
           <img src={logo} className="App-logo" alt="logo" />
       </div>
         <div className="menu">
-        <div className="menu-item"> Menu Item 1 </div>
-        <div className="menu-item"> Menu Item 2 </div>
-        <div className="menu-item"> Menu Item 3 </div>
+        <div className="menu-item"> Search Cases </div>
+        <div className="menu-item"> Explore Options </div>
+        <div className="menu-item"> assign Cases </div>
         
            </div>
                

@@ -28,7 +28,7 @@ intrinsicSwitch.addEventListener("change", () => {
           <div className="toggle__thumb"></div>
         </div>
       </label>
-      <p className="awesome" data-element="awesome" data-sizing="intrinsic">CSS is awesome</p>
+      <p className="awesome" data-element="awesome" >Testing if this works with content so huge that in general it should fail. i am unable to understand why this is not working as expected</p>
     </div>
   )
 }
